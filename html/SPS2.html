@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPSGame</title>
+    <link rel="stylesheet" href="../css/SPS2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img id="second-page-bg" src="../images/gaming-background.jpg" alt="bg">
+    <main id="entry-page">
+        <div id="outer-block">
+            <div id="block">
+                <h1 id="head-block">Number of points you want to play</h1>
+                <ul id="inner-block">
+                    <li id="ele1" class="ele">
+                        <button id="elebtn1" class="ele-btn">5</button>
+                    </li>
+                    <li id="ele2" class="ele">
+                        <button id="elebtn2" class="ele-btn">10</button>
+                    </li>
+                    <li id="ele3" class="ele">
+                        <button id="elebtn3" class="ele-btn">15</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <section id="section">
+        <div id="block-point">
+            <ul id="point">
+                <li id="chosen1" class="chosen">
+                    <img id="elechosen1" src="../images/user.jpg" alt="user">
+                </li>
+                <li id="points1" class="point">---</li>
+                <li id="chosen2" class="chosen">
+                    <h1 id="elechosen2">VS</h1>
+                </li>
+                <li id="points3" class="point">---</li>
+                <li id="chosen3" class="chosen">
+                    <img id="elechosen3" src="../images/bot.avif" alt="bot">
+                </li>
+            </ul>
+        </div>
+        <div id="outer-choice">
+            <h1 id="head-choice">Choose your Weapon</h1>
+            <ul id="choices">
+                <li id="choice1" class="choice">
+                    <button id="stone">
+                        <img id="item1" class="items" src="../images/stone.png">
+                    </button>
+                </li>
+                <li id="choice2" class="choice">
+                    <button id="paper">
+                        <img id="item2" class="items" src="../images/paper.png">
+                    </button>
+                </li>
+                <li id="choice3" class="choice">
+                    <button id="scissor">
+                        <img id="item3" class="items" src="../images/scissor.png">
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="won">
+        <div id="Outer-YouWon" class="outer-ending">
+            <ul id="YouWon" class="inner-end">
+                <li id="YouWon1" class="ending">
+                    <h1>Congratulations</h1>
+                    <h3>you won the match</h3>
+                </li>
+                <li id="YouWon2" class="ending">
+                    <button id="endingWonBtn" class="ending-btn">Next Game</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section id="loose">
+        <div id="Outer-YouLoose" class="outer-ending">
+            <ul id="YouLoose" class="inner-end">
+                <li id="YouLoose1" class="ending">
+                    <h1>Looser</h1>
+                    <h3> you loose the match</h3>
+                </li>
+                <li id="YouLoose2" class="ending">
+                    <button id="endingLooseBtn" class="ending-btn">Next Game</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="../js/SPS.js"></script>
+</body>
+
+</html>
