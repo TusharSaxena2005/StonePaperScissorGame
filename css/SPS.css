@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#bg {
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    filter: opacity(0.8);
+    object-fit: cover;
+}
+
+#navbar {
+    /* border: 1px solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav {
+    /* border: 1px solid; */
+    width: 95%;
+    z-index: 1;
+    color: white;
+    /* background-color: transparent; */
+    filter: invert(1);
+    text-shadow: 0 0 6px black;
+}
+
+#nav1 {
+    font-family: 'Moon Dance';
+    font-size: 1.5rem;
+}
+
+#first-para,
+#outer-btn {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#para {
+    /* border: 1px solid; */
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Baloo Bhaijaan 2';
+    text-shadow: 0 0 5px white, 0 0 5px white;
+    color: rgb(37, 37, 37);
+}
+
+#para1 {
+    font-size: 3rem;
+}
+
+#para2 {
+    font-size: 2rem;
+}
+
+#outer-btn {
+    height: 20vh;
+}
+
+#btn {
+    width: 213px;
+    height: 50px;
+    border-radius: 31px;
+    font-size: 1.1rem;
+    color: white;
+    text-shadow: 0 0 5px BLACK;
+    border: none;
+    background-color: #00000040;
+    box-shadow: 0 0 10px black, 0 0 10px black;
+}
+
+#btn:hover {
+    cursor: pointer;
+    /* transition: 1s ease-in-out; */
+    animation-name: rotate;
+    animation-duration: 0.1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+    0% {
+        box-shadow: #000000 0px 0px 10px, #0024ff 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    25% {
+        box-shadow: #000000 0px 0px 10px, #00f9ff 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    50% {
+        box-shadow: #000000 0px 0px 10px, #00ff23 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    75% {
+        box-shadow: #000000 0px 0px 10px, #ffd800 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+
+    100% {
+        box-shadow: #000000 0px 0px 10px, #ff0000 0px 0px 10px, #0024ff 0px 0px 10px;
+    }
+}
